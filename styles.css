@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(176, 215, 223);
+    margin: 100px;
+    padding: 10px;
+    border: 2px gray}
+
+    nav li {
+        display: inline-block;
+
+    }
+
+
+
+img {width: 400px;}
+
+footer {text-align: center}
