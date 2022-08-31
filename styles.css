@@ -1,7 +1,9 @@
 body {
     
-    background-color: rgb(146, 164, 182);
-    
+    background-color: rgb(162,181,192);
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+
 
     }
 
@@ -17,17 +19,20 @@ body {
         width: 20em;
         margin: auto;
         color: rgb(58, 63, 131);
-        text-decoration-style: dotted;
-        margin: 10px;
+        border-radius: 25px;
+        border: 3px;
+        background: #d6dee6;
+        margin:50px;
 
     }
 
     h1{
         text-align: center;
-        color:rgb(36, 37, 47);
+        color:rgb(32,49,66);
         border: 3px;
-        padding:1em;
-
+        border-radius: 25px;
+        background: #d6dee6;
+        padding: 10px;
     }
 
     
