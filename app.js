@@ -1,11 +1,11 @@
 'use strict';
 
-console.log(sleepy head);
+let username = prompt("What's your name?");
+let message
 
-let username = prompt ("What' your name?");
-let message; 
+if (username== "Monica"){
+  message= "hello, master"}
+else {message= "Welcome, "+username+"!"};
+document.write(message);
 
-if (username== "Monica")
-{message= "hello, again"}
 
-document.write (message)
