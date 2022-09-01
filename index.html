@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script>src="app.js"</script>
+    <script src="app.js"></script>
     <header>
         
         <nav>
@@ -44,6 +44,9 @@
 
         <section>
             <p>Our personal internal clock, <a href="https://www.sleepfoundation.org/circadian-rhythm">Circadium rhythm</a>, work with all of our body systems. It affects so many aspects of our life like mental health, weight loss, immunity, and even DNA repair. Constant shifiting sleep schedules will throw off our little clock. When you say "I'm dead tired" part of your brain is partially turned off.</p>
+        <script>
+            
+        </script>
         </section>
 
         <section> 
@@ -51,6 +54,24 @@
             Photo by <a href="https://unsplash.com/@matthewhenry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew Henry</a> on <a href="https://unsplash.com/s/photos/bed-sleep?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
             <p>Our brains <a href="https://www.nih.gov/news-events/nih-research-matters/how-sleep-clears-brain">clean</a> out the toxins that were built up during our waking hours, this can only happen when we experience uninterrupted sleep.Be nice to your brain and your body. The biggest self love you can show is by taking care of yourself. </p></p>
         </section>
+        
+        <img id="gif" src="">
+        
+        <button type="button"
+        onclick="show()" id="btnID">
+        Click me!
+        </button>
+        
+        <script>
+         function show() {
+         let image = document.getElementById("gif");
+
+        image.src =
+        "https://media1.giphy.com/media/142D1Q2ikiyLlu/giphy.gif"
+
+        document.getElementById("btnID")
+         .style.display = "none";
+}       </script>
     </main>
     
     <footer>
