@@ -3,6 +3,7 @@ body {
     background-color: rgb(162,181,192);
     font-size: medium;
     font-family: 'Nunito', sans-serif;
+    ;
 
 
     }
@@ -40,32 +41,28 @@ body {
     section{
         display:inline-block;
         margin: 10px;
-        border: 20px;
+        border: 3 px;
+        border-radius: 15px 50px 30px 10px;
+        background-color: #d6dee6 ;
         text-align: justify;
         padding: 1rem 1rem;
         vertical-align: middle;
-        align-content: flex-end;
-    
-    }
+        align-content: flex-end;       
+          }
 
     #bed {
         float: left;
         max-width: 400px;}
 
-    
-    
-       
-
-
-    .images>section {
+    .images {
         display: inline-block;
-        float: left;
-    }
+                }
+
+    
 
     #pug {
-    
-        max-width: fit-content;
-        
+        max-width: fit-content;  
     }
 
 footer {text-align: center}
+
