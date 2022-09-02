@@ -29,3 +29,13 @@ function greeting(){
     }
     }
 
+let guess;
+
+function annoying(){
+    while (guess !== 'sheep'){
+    guess= prompt ('What rhymes with sleep? (hint it goes baaa)')
+  }
+};
+
+
+annoying(guess);
